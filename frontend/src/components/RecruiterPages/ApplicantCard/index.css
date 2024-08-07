@@ -1,0 +1,126 @@
+.applicant-user-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.applicant-user-card.applicant-selected {
+  background-color: #a5d6a7;
+}
+
+.applicant-user-card.applicant-rejected {
+  background-color: #ef9a9a;
+}
+
+.applicant-user-card.applicant-underreview {
+  background-color: #ffcc80;
+}
+
+.applicant-user-info {
+  flex: 1;
+}
+
+.applicant-info-item {
+  margin-bottom: 5px;
+}
+
+.applicant-application-status {
+  text-align: center;
+}
+
+.applicant-status-text {
+  margin-bottom: 5px;
+}
+
+.applicant-action-buttons button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.applicant-button{
+  color: #fff;
+}
+.applicant-accept-button {
+  background-color: #4caf50;
+}
+
+.applicant-reject-button {
+  background-color: #f44336;
+}
+
+.applicant-review-button {
+  background-color: #ff9800;
+}
+
+
+
+@media screen and (max-width:600px) {
+  .applicant-application-status{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+  }
+  .applicant-action-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .applicant-button{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+.modal {
+  font-size: 12px;
+  padding: 10px;
+  padding-right: 20px;
+  width: 500px;
+  background-color:#ccc;
+  border-radius: 10px;
+}
+.modal .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+
+.modal .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.modal .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: hsl(194, 36%, 65%);
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+.resume-not-found-heading{
+  text-align: center;
+}

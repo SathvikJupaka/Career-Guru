@@ -1,0 +1,146 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.website-logo-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.website-logo {
+  height: 60px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.login-page-content {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.login-page-image-container {
+  flex: 1;
+}
+
+@media screen and (max-width:700px) {
+  .login-page-image-container{
+    display:none;
+  }
+  .login-page-content{
+    width: 95%;
+  }
+}
+.login-page-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 20px;
+  /* min-height: 500px; */
+}
+
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  border-radius: 10px;
+  padding-top: 40px;
+}
+
+.login-input-container {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.login-label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.login-element {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+}
+
+.login-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  outline: none;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.login-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.need-account {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.need-account a {
+  color: #4caf50;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.need-account a:hover {
+  text-decoration: underline;
+}
+
+.go-to-register-link {
+  color: #4caf50;
+}
+
+
+
+.errormessage{
+  align-self: center;
+  color: red;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.types-list-container{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+}

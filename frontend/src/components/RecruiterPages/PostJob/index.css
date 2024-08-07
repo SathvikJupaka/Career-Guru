@@ -1,0 +1,108 @@
+/* Container styles */
+.post-job-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  /* Form styles */
+  .post-job-form {
+    width: 60%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  @media screen and (max-width:600px) {
+    .post-job-form{
+      width: 80%;
+    }
+  }
+  .post-job-form h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  /* Form fields styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Additional Form styles */
+  .form-group textarea {
+    height: 100px; /* Adjust the height of the textarea as needed */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Error message styles */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Form buttons styles */
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .form-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .form-buttons .btn-primary {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  .form-buttons .btn-secondary {
+    background-color: #ccc;
+    color: #333;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+  }
+  

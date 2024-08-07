@@ -1,0 +1,72 @@
+.my-jobs-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.my-jobs-container{
+    width: 80%;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.jobs-container{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:600px) {
+    .my-jobs-container{
+        width: 100%;
+    }
+}
+.your-jobs-heading{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:#050505 ;
+    text-align: center;
+}
+.my-jobs-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/* //no content found classes */
+.no-content-found-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:60px ;
+}
+.no-content-heading{
+    font-size: 20px;
+    font-weight: 700;
+    font-family:  "Lucida Console", "Courier New", monospace;
+}
+.no-content-found-image{
+    width: 40% ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.no-content-button{
+    color: white;
+    font-size: 14px;
+    font-family:  "Lucida Console", "Courier New", monospace;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #4caf49;
+    border-radius: 5px;
+}
+
+.loading-container{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

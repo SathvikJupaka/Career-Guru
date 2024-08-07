@@ -1,0 +1,126 @@
+.user-nav-bar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(63, 61, 61);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 8px;
+    width: 100%;
+    margin-top: 0px;
+}
+@media screen and (max-width:600px) {
+    .user-nav-bar-container{
+        flex-direction: column;
+    }
+}
+.company-logo{
+    height: 50px;
+    width: 80px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.desktop-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+@media screen and (max-width:600px) {
+    .desktop-nav{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.user-options-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.options-container{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.option{
+    font-size: 20px;
+    color: aliceblue;
+    margin-right: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 500;
+}
+.option:hover{
+    color: #4caf50;
+}
+.logout-button{
+    font-size: 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    color: rgb(223, 228, 232);
+    background-color: #4caf50;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.large-screen-options{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:600px) {
+    .large-screen-options{
+        display: none;
+    }
+    .logout-button{
+        margin-left:50px;
+    }
+    .options-container{
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+.mobile-hamburger-icon-container{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    .mobile-hamburger-icon-container{
+        display: inline;
+    }
+}
+.hamburger-icon-mobile{
+    color: aliceblue;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 30px;
+}
+
+.mobile-options{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    .mobile-options{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}

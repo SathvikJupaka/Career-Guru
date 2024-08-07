@@ -1,0 +1,38 @@
+/* index.css */
+
+.home-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-seeker-card {
+    background-color: #a5d6a7; /* Light green background for job seeker card */
+  }
+  
+  .recruiter-card {
+    background-color: #90caf9; /* Light blue background for recruiter card */
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .card p {
+    font-size: 16px;
+    text-decoration: none;
+  }
+  

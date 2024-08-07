@@ -1,0 +1,56 @@
+/* FilterAndSearch.css */
+
+.filter-and-search {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 30%;
+}
+@media screen and (max-width:600px) {
+    .filter-and-search{
+        width: 100%;
+    }
+}
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.filter-label{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.filter-input {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.filter-button{
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.apply-button{
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+
+}
+
+.clear-buttons {
+    border:2px solid #45a049;
+    color: black;
+    background-color: transparent;
+}
